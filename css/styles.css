@@ -1,0 +1,54 @@
+
+
+body {
+	font-size: 15px;
+	color:black;
+	background-color: #ffffb3;
+	
+}
+
+.navbar-light .navbar-brand { font-size:30px;}
+
+.header-nav{
+	background-color: black;
+	border-radius:0;
+	border:0;
+	
+}
+
+ul li{text-align:center;display:none;}
+
+.section{
+	width: 98%;
+}
+
+
+	.row > div {
+	
+		background-color:#990000;
+		
+		margin-bottom: 100px;
+
+	}
+	
+.titulo {
+	font-size: 50px;
+	text-align:center;
+	
+}
+
+.bg-light {
+    background-color: #990000!important;
+}
+
+.center{text-align:center;}
+
+
+@media (max-width: 767.98px) { 
+
+ul li{text-align:center;display:block;}
+
+.section{
+	width: 80%;
+}
+}
